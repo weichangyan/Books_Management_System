@@ -54,11 +54,6 @@ const routes = [
                 component: () => import("@/views/Message"),
             },
             {
-                path: 'donate',
-                name: 'Donate',
-                component: () => import("@/views/Donate"),
-            },
-            {
                 path: 'order',
                 name: 'Order',
                 component: () => import("@/views/Order"),
